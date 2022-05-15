@@ -75,6 +75,15 @@ export default function App() {
                     }
                   ]
                 }]}>
+                  <Text style={{
+                      position: 'absolute',
+                      top: 0,
+                      left: 0,
+                      padding: 12,
+                      fontSize: 32,
+                      fontWeight: '900',
+                      color: "#f9f9f9"
+                    }}>0{index}</Text>
                   <Image 
                     source={{ uri: item.source }}
                     style={styles.image}
